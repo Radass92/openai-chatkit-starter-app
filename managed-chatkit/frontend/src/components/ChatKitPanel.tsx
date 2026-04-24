@@ -122,9 +122,9 @@ export function ChatKitPanel() {
             </div>
           </aside>
 
-          <div className="h-[78vh] overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-lg">
-            <ChatKit control={chatkit.control} className="h-full w-full" />
-          </div>
+          <div className="flex h-[78vh] min-h-[640px] overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-lg">
+  <ChatKit control={chatkit.control} className="block h-full min-h-0 w-full flex-1" />
+</div>
         </section>
       </div>
     </main>
