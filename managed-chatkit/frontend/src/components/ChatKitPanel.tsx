@@ -4,7 +4,7 @@ import { createClientSecretFetcher, workflowId } from "../lib/chatkitSession";
 
 export function ChatKitPanel() {
   const getClientSecret = useMemo(
-    () => createClientSecretFetcher(workflowId),
+    () => createClientSecretFetcher(workflowId, "/_/backend/api/create-session"),
     []
   );
 
