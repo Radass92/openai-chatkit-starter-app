@@ -17,7 +17,7 @@ export function ChatKitPanel() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6">
         <section className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
           <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-blue-600">
-            AI analiza nieruchomości
+            Analiza nieruchomości
           </p>
 
           <h1 className="text-4xl font-bold tracking-tight text-slate-950">
@@ -53,7 +53,7 @@ export function ChatKitPanel() {
                 Obsługiwane źródła testowe:
               </p>
               <p className="mt-2">
-                Otodom, OLX, RynekPierwotny, Morizon, Adresowo albo ręcznie
+                np. OLX, RynekPierwotny, Morizon, Adresowo albo ręcznie
                 wklejona treść ogłoszenia.
               </p>
             </div>
